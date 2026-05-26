@@ -132,7 +132,7 @@ namespace BattleShip {
      * @return : whether the board can be placed at this location or not
      */
     bool Board::can_ship_be_placed(const ShipPlacement& placement) const {
-        return is_on(placement.start.first, placement.stop.first)
+        return is_on(placement.start.first, placement.stop.second)
                and is_on(placement.stop.first, placement.stop.second)
                and are_no_ships_between(placement.start, placement.stop);
     }

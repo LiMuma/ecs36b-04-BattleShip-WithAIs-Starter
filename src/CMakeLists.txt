@@ -18,6 +18,16 @@ GameConfig.cpp GameConfig.h
         Orientation.h
         BoardCell.cpp
         BoardCell.h
+        HumanPlayer.cpp
+        HumanPlayer.h
+        RandomAI.cpp
+        RandomAI.h
+        CheatingAI.cpp
+        CheatingAI.h
+        AIPlayer.cpp
+        AIPlayer.h
+        SearchAndDestroyAI.cpp
+        SearchAndDestroyAI.h
 )
 
 
